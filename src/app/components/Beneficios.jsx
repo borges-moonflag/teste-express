@@ -9,6 +9,7 @@ export default function Beneficios() {
         button1: "Sem perda de tempo",
         button2: "Sem perda de dinheiro",
         button3: "Sem preocupação",
+        button4: "Solucione com a [SUA CONTABILIDADE]",
     }
 
     return (
@@ -64,7 +65,7 @@ export default function Beneficios() {
                                 </div>
 
                             </div>
-                            <button className="bg-[var(--third-color)] py-[12px] px-[32px] text-[var(--primary-color)] text-[16px] leading-[24px] font-bold rounded-[100px]" style={{ boxShadow: "0 20px 36px 2px rgba(145, 187, 226, 0.15)" }}>Solucione com a [SUA CONTABILIDADE]</button>
+                            <button className="bg-[var(--third-color)] py-[12px] px-[32px] text-[var(--primary-color)] text-[16px] leading-[24px] font-bold rounded-[100px] hover:pl-[50px] transition-all duration-300 cursor-pointer" style={{ boxShadow: "0 20px 36px 2px rgba(145, 187, 226, 0.15)" }}>{beneficios.button4}</button>
                         </div>
                     </div>
 

@@ -9,7 +9,9 @@ import MailIcon from "./icons/malIcon";
 
 export default function Footer() {
 
-  const logo = "./logo.webp";
+  const logo = {
+    image: "./logo.webp",
+  }
   const menuItems = [
     { label: "Home", href: "/" },
     { label: "Sobre nós", href: "/sobreNos" },
@@ -27,7 +29,7 @@ export default function Footer() {
           <div className="max-w-[275px] gap-[20px] flex flex-col ">
             <Link href="/">
               <img
-                src={logo}
+                src={logo.image}
                 alt="Logo"
                 className="h-14 cursor-pointer"
               />

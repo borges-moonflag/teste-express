@@ -15,7 +15,9 @@ export default function Navbar() {
     { label: "Solicite um orçamento", href: "/orcamento" },
   ];
 
-  const logo = "./logo.webp";
+  const logo = {
+    image: "./logo.webp",
+  }
 
   return (
     <nav className="navbar p-[20px] justify-center flex">
@@ -24,7 +26,7 @@ export default function Navbar() {
           
           <Link href="/">
             <img
-              src={logo}
+              src={logo.image}
               alt="Logo"
               className="h-10 cursor-pointer"
             />
