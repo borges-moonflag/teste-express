@@ -10,7 +10,7 @@ import MailIcon from "./icons/malIcon";
 export default function Footer() {
 
   const logo = {
-    image: "./logo.webp",
+    image: "./Logo.webp",
   }
   const menuItems = [
     { label: "Home", href: "/" },

@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   const logo = {
-    image: "./logo.webp",
+    image: "./Logo.webp",
   }
 
   return (
