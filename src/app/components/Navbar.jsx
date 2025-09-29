@@ -15,7 +15,7 @@ export default function Navbar() {
     { label: "Solicite um orçamento", href: "/orcamento" },
   ];
 
-  const logo = "/logo.webp";
+  const logo = "./logo.webp";
 
   return (
     <nav className="navbar p-[20px] justify-center flex">
