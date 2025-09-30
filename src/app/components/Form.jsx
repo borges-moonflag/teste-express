@@ -117,7 +117,7 @@ export default function Formulario() {
                             <button
                                 type="submit"
                                 disabled={loading}
-                                className="w-full bg-[var(--seccondary-white)] hover:bg-[var(--seccondary-white)]/70 text-[var(--primary-color)] font-bold py-3 rounded-[100px] transition-all cursor-pointer"
+                                className="w-full border border-[var(--third-color)] hover:bg-[var(--seccondary-white)] text-[var(--seccondary-white)] hover:text-[var(--primary-color)] font-bold py-3 rounded-[100px] transition-all cursor-pointer"
                             >
                                 {loading ? "Enviando..." : "Enviar"}
                             </button>

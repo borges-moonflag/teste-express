@@ -26,7 +26,7 @@ export default function Navbar() {
           
           <Link href="/">
             <img
-              src={logo.image}
+              src="../Logo.webp"
               alt="Logo"
               className="h-10 cursor-pointer"
             />
@@ -37,7 +37,7 @@ export default function Navbar() {
   {menuItems.map((item) => (
     <li key={item.href} className="last:hidden md:last:block">
       <Link
-        className="text-lg transition font-[var(--font-dm)]"
+        className="text-lg transition font-[var(--font-dm)] hover:text-[var(--third-color)]"
         href={item.href}
       >
         {item.label}

@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="max-w-[275px] gap-[20px] flex flex-col ">
             <Link href="/">
               <img
-                src={logo.image}
+                src="../Logo.webp"
                 alt="Logo"
                 className="h-14 cursor-pointer"
               />
@@ -52,7 +52,7 @@ export default function Footer() {
               {menuItems.map((item) => (
                 <li key={item.href} className="last:hidden">
                   <Link
-                    className="text-lg transition font-[var(--font-dm)]"
+                    className="text-lg transition font-[var(--font-dm)] hover:text-[var(--third-color)]"
                     href={item.href}
                   >
                     {item.label}
